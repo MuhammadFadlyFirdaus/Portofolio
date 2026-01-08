@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Web Developer</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">F<span class="accent-text">adori.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="theme-switch-wrapper">
+                    <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hello, I'm Fadori</p>
+                    <h1>Web <span class="accent-text">Developer</span></h1>
+                    <p class="hero-sub">Structuring the web, one pixel at a time.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Placeholder for Hero Image or Abstract Shape -->
+                <div class="hero-visual">
+                    <div class="circle-bg"></div>
+                    <img src="images/profile.png" alt="Profile" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About <span class="accent-text">Me</span></h2>
+                <div class="about-content">
+                    <div class="about-columns">
+                        <div class="about-details">
+                            <h3>Driven by <span class="highlight">Creativity</span></h3>
+                            <div class="about-text">
+                                <p>Hi, I'm <span class="highlight">Fadori</span>. I'm not just learning to code; I'm
+                                    learning to create digital experiences. My journey in web development is fueled by a
+                                    desire to build simple yet powerful websites.</p>
+                                <p>I specialize in translating designs into responsive, interactive, and performant
+                                    code. When I'm not coding, I'm exploring the latest web trends.</p>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h3>1+</h3>
+                                <p>Months Learning</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>1+</h3>
+                                <p>Projects Built</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>100%</h3>
+                                <p>Dedication</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3><i class="fas fa-code"></i></h3>
+                                <p>Clean Code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">My <span class="accent-text">Skills</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured <span class="accent-text">Projects</span></h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="images/project1.png" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio V1</h3>
+                            <p>My first attempt at a personal portfolio.</p>
+                            <a href="#" class="btn-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="images/project2.png" alt="Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>coming soon</h3>
+                            <p>-.</p>
+                            <a href="#" class="btn-link">- <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="images/project3.png" alt="Project 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>coming soon</h3>
+                            <p>-.</p>
+                            <a href="#" class="btn-link">- <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get in <span class="accent-text">Touch</span></h2>
+                <div class="contact-content">
+                    <form action="https://formspree.io/f/maqnrgzk" method="POST" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="https://github.com/MuhammadFadlyFirdaus" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/fadlyif_/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fadori. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

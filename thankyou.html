@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Fadori</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .thankyou-section {
+            height: 80vh;
+            /* Adjust for footer/header */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 70px;
+        }
+
+        .thankyou-icon {
+            font-size: 5rem;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        .thankyou-title {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .thankyou-message {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateY(0);
+            }
+
+            40% {
+                transform: translateY(-20px);
+            }
+
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">F<span class="accent-text">adori.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="theme-switch-wrapper">
+                    <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="container thankyou-section">
+            <div class="thankyou-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h1 class="thankyou-title">Message <span class="accent-text">Sent!</span></h1>
+            <p class="thankyou-message">Thank you for reaching out. I've received your message and will get back to you
+                as soon as possible.</p>
+            <a href="index.html" class="btn btn-primary">Back to Home</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fadori. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
